@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnEj12Llamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_call"
+            android:text="Llamar por teléfono"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEj12Correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:text="Enviar correo"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEj12Mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_mapmode"
+            android:text="Abrir Google Maps"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEj12Compartir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_share"
+            android:text="Compartir texto"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEj12Web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_compass"
+            android:text="Abrir página web" />
+
+    </LinearLayout>
+</ScrollView>

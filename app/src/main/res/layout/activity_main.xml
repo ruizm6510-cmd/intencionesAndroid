@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Ejercicios Prácticos - Android Intenciones"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <Button android:id="@+id/btnEj1" android:text="Ejercicio 1: RecyclerView Nombres" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj2" android:text="Ejercicio 2: RecyclerView Productos e Imagen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj3" android:text="Ejercicio 3: Lugares y DetalleLugarActivity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj4" android:text="Ejercicio 4: Agregar Ítem y Toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj5" android:text="Ejercicio 5: Paso de Productos y Resultado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj6" android:text="Ejercicio 6: Gestión de Contactos (CRUD)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj7" android:text="Ejercicio 7: Notas y Compartir" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj8" android:text="Ejercicio 8: Google Maps Intent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj9" android:text="Ejercicio 9: Enviar Texto (ACTION_SEND)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj10" android:text="Ejercicio 10: Seleccionar Contacto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj11" android:text="Ejercicio 11: Abrir Archivo PDF" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEj12" android:text="Ejercicio 12: Intenciones Implícitas Múltiples" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
